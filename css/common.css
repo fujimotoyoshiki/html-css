@@ -1,0 +1,10 @@
+* {
+    margin: unset;
+    padding: unset;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+}
