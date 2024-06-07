@@ -97,10 +97,100 @@
           <a href="https://google.com/">Google</a>
         </article>
       </article>
+
+      <article>
+        <h2 class="main-title">CSSについて</h2>
+        <p class="main-text">Cascading Style Sheets</p>
+        
+        <section class="content-item">
+          <h3 class="content-item-title">メニュー</h3>
+
+          <p><a href="https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet">Flexbox チートシート</a></p>
+
+          <ul class="menu">
+            <li class="menu-list"><a href="https://x.com/home?lang=ja">X</a></li>
+            <li class="menu-list"><a href="https://www.instagram.com/">Instagram</a></li>
+            <li class="menu-list"><a href="https://www.facebook.com">Facebook</a></li>
+          </ul>
+        </section>
+
+        <section class="content-item">
+          <h3 class="content-item-title">marginとpaddingとborderと幅について</h3>
+          <p>基本的にはwidth + padding + borderの大きさになる</p>
+          <p>ただしborder-sizing: border-box;が指定されてる場合はwidthの幅になる。（widthの内側にborderとpaddingが入る）</p>
+          <p>下記のように全てのタグに対して当てちゃっても良い。</p>
+          <pre>
+            * {
+              box-sizing: border-box;
+            }
+          </pre>
+          <p class="box1">あああ</p>
+          <p class="box2">あああ</p>
+        </section>
+
+        <section class="content-item">
+          <h3 class="content-item-title">記事</h3>
+
+          <div class="entry-container">
+            <section class="entry">
+              <h4 class="entry-title"><a href="">タイトル</a></h4>
+              <p class="entry-img">
+                <img src="https://aipict.com/wp-content/uploads/2022/09/sky02.png" alt="">
+              </p>
+              <ul class="entry-category">
+                <li class="entry-category-item">カテゴリー</li>
+              </ul>
+              <p class="entry-text">記事の説明</p>
+            </section>
+            <section class="entry">
+              <h4 class="entry-title"><a href="">タイトル</a></h4>
+              <p class="entry-img">
+                <img src="https://beiz.jp/images_S/sky/sky_00165.jpg" alt="">
+              </p>
+              <ul class="entry-category">
+                <li class="entry-category-item">カテゴリー</li>
+              </ul>
+              <p class="entry-text">記事の説明</p>
+            </section>            <section class="entry">
+              <h4 class="entry-title"><a href="">タイトル</a></h4>
+              <p class="entry-img">
+                <img src="https://booth.pximg.net/9dfa7583-ce49-4379-9838-70c2f0521c17/i/4423790/2b00c7c0-84b1-48f0-a554-6611e1ab8725_base_resized.jpg" alt="">
+              </p>
+              <ul class="entry-category">
+                <li class="entry-category-item">カテゴリー</li>
+              </ul>
+              <p class="entry-text">記事の説明</p>
+            </section>            <section class="entry">
+              <h4 class="entry-title"><a href="">タイトル</a></h4>
+              <p class="entry-img">
+                <img src="https://t4.ftcdn.net/jpg/05/12/09/33/360_F_512093377_wn3zgPIeFoaHlx8QPuLAXVZowBp7veRS.jpg" alt="">
+              </p>
+              <ul class="entry-category">
+                <li class="entry-category-item">カテゴリー</li>
+              </ul>
+              <p class="entry-text">記事の説明</p>
+            </section>
+          </div>
+        </section>
+
+        <section>
+          <h3>flexでの真ん中よせ</h3>
+          <div class="flex-container column">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+          </div>
+          <div class="flex-container row">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+          </div>
+        </section>
+      </article>
     </main>
 
     <footer>
-      <p>&copy; copyright kamem</p>
+      <p>&copy; copyright Fujimoto Yoshiki</p>
     </footer>
   </body>
 </html>
