@@ -199,3 +199,59 @@
 .entry-card-more a:hover {
   opacity: 0.8;
 }
+
+.fixed {
+  position: fixed;
+  bottom: 300px;
+  right: 20px;
+  background: green;
+  color: #fff;
+  padding: 16px;
+}
+
+
+.relative {
+  position: relative;
+  top: -40px;
+  left: 500px;
+  background-color: brown;
+  width: 180px;
+  height: 40px;
+  color: #fff;
+  padding: 2px;
+}
+
+.absolute {
+  position: absolute;
+  background-color: blue;
+  top: -45px;
+  right: 20px;
+  width: 180px;
+  height: 40px;
+  color: #fff;
+  padding: 16px;
+  z-index: 2;
+}
+
+
+.absoluteWrapper {
+  position: relative;
+  height: 100px;
+  /*background: yellow;*/
+}
+
+.new {
+  position: absolute;
+  background-color: red;
+  padding: 20px;
+  border-radius: 50%;
+  top: -80px;
+  right: -30px;
+  color: #fff;
+  z-index: 1;
+}
+
+.ori{
+  background-color: yellow;
+}
+
