@@ -25,13 +25,14 @@
 
 .navi-item{
     font-size: large;
+    margin-right: 50px;
+    margin-top: 15px;
 }
 
 .main-entry{
     background-color: #47B39D;
     color: white;
-    text-align: center;
-    height: 650px;
+    height: 600px;
 }
 
 .main-title{
@@ -39,13 +40,14 @@
     font-size: 130px;
     font-size: 48px;
     padding-top: 190px;
+    text-align: center;
 }
 
 .main-en{
     max-width: 600px;
-    margin-left:470px ;
-    margin-bottom: 200px;
+    margin: 0 auto;
     padding-top: 40px;
+    text-align: center;
 }
 
 .blog-title{
@@ -64,6 +66,7 @@
 
 .blog-container{
     display: flex;
+    justify-content: space-between;
 }
 
 .blog-item{
@@ -329,6 +332,16 @@
     background-color: #41BAA4;
     color:#fff ;
     overflow: hidden;
+}
+
+.textbox{
+    height: 30px;
+    width: 500px;
+}
+
+.message{
+    height: 150px;
+    width: 450px;
 }
 
 .send{
