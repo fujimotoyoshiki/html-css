@@ -7,7 +7,6 @@
     background-color: #41BAA4;
     display: flex;
     color: white;
-    height: 100px;
     justify-content: space-between;
     padding: 0px 50px;
 }
@@ -356,7 +355,7 @@
 }
 
 .feature-item:nth-child(odd) {
-    background-color: #e5e5e5;
+    background-color: #f6f6f6;
 }
 
 .feature-item:nth-child(odd) {
@@ -585,6 +584,17 @@
 
 
 @media (width < 750px) {
+    .header {
+        
+        padding: 0px 50px;
+    }
+
+    .header-title {
+        line-height: 65px;
+        font-weight: inherit;
+        font-size: 25px;
+    }
+
     .feature {
         margin: 0 auto;
         overflow: none;
