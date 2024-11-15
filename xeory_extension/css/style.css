@@ -81,7 +81,6 @@
 
 .navi-item {
     display: block;
-    padding: 0 20px;
 }
 
 .navi-item a {
@@ -289,7 +288,9 @@
     font-size: 36px;
 }
 
-.feature-title-en {}
+.feature-title-en {
+    margin-bottom: 20px;
+}
 
 .feature-number {
     color: #fff;
@@ -319,7 +320,7 @@
 }
 
 .feature-text {
-    width: 610px;
+    width: 70%;
     padding-left: 100px;
     padding-top: 50px;
     grid-area: feature-text;
@@ -459,7 +460,6 @@
 .textbox {
     padding: 8px 13px;
     height: 20px;
-    max-width: 100%;
     width: 600px;
     border: 0;
     margin-bottom: 20px;
@@ -603,14 +603,14 @@
     .feature-text {
         margin: 0 auto;
         padding-left: 0;
-
+        padding-top: 0;
     }
 
     .feature-button a {
         margin: 0 auto;
         width: 90%;
         margin-bottom: 50px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .title-container {
@@ -674,6 +674,8 @@
         border-bottom: none;
         border-top: #41BAA4 solid;
         margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 0px;
     }
 
     .company-label {
@@ -700,6 +702,10 @@
         display: flex;
         gap: 0;
         justify-content: space-between;
+    }
+
+    .inquiry-item-box{
+        max-width: 100%;        
     }
 
     .footer-facebook-frame{
